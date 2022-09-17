@@ -60,7 +60,7 @@
 						</div>
 						<div class="card-footer py-3 border-0">
 							<div class="text-center">
-								Have an account ? <a href="<?php echo site_url();?> Auth" class="text-dark"> Login</a>
+								Have an account ? <a href="<?php echo site_url();?>Auth" class="text-dark"> Login</a>
 							</div>
 						</div>
 					</div>

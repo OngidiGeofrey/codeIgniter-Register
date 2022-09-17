@@ -19,4 +19,10 @@ class Auth extends CI_Controller {
 	{
 		echo '<script>alert("clicked")</script>';
 	}
+
+
+	public function login_form()
+	{
+		echo '<script>alert("clicked")</script>';
+	}
 }
