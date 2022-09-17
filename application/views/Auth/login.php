@@ -7,6 +7,7 @@
 	<meta name="description" content="This is a login page template based on Bootstrap 5">
 	<title>Bootstrap 5 Login Page</title>
     <link rel="stylesheet" href="<?php echo site_url();?>assets/all.css">
+    <link rel="stylesheet" href="<?php echo site_url();?>toast/toast.min.css">
  </head>
 
 <body>
