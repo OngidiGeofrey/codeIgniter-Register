@@ -8,6 +8,9 @@
 	<title>Bootstrap 5 Login Page</title>
     <link rel="stylesheet" href="<?php echo site_url();?>assets/all.css">
     <link rel="stylesheet" href="<?php echo site_url();?>toast/toast.min.css">
+    <script src="<?php echo site_url();?>assets/toast/jqm.js"></script>
+
+    <script src="<?php echo site_url();?>assets/toast/toast.js"></script>
  </head>
 
 <body>
