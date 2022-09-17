@@ -1,0 +1,5 @@
+ReWriteEngine on
+ReWriteCond $1 !^(index\.php|assets|images|css|js|uploads|favicon.png)
+ReWriteCond %(REQUEST_FILENAME) !-f
+ReWriteCond %(REQUEST_FILENAME) !-d
+ReWriteRule ^(.*)$ ./index.php/$1 [L]
