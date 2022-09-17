@@ -6,7 +6,11 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="This is a login page template based on Bootstrap 5">
 	<title>Bootstrap 5 Login Page</title>
-    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="<?php echo site_url();?>assets/all.css">
+    <link rel="stylesheet" href="<?php echo site_url();?>toast/toast.min.css">
+    <script src="<?php echo site_url();?>assets/toast/jqm.js"></script>
+
+    <script src="<?php echo site_url();?>assets/toast/toast.js"></script>
  </head>
 
 <body>
@@ -15,7 +19,7 @@
 			<div class="row justify-content-sm-center h-100">
 				<div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
 					<div class="text-center my-5">
-						<img src="logo.jpg" alt="logo" width="100">
+                    <img src="<?php echo site_url();?>assets/logo.jpg" alt="logo" width="100">
 					</div>
 					<div class="card shadow-lg">
 						<div class="card-body p-5">
