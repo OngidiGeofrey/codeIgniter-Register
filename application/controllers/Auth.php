@@ -14,4 +14,9 @@ class Auth extends CI_Controller {
 		$this->load->view('Auth/register');
 
 	}
+
+	public function registration_form()
+	{
+		echo '<script>alert("clicked")</script>';
+	}
 }
